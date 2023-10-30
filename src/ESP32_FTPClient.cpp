@@ -2,7 +2,6 @@
 #include "ESP32_FTPClient.h"
 #include <Update.h>
 #include <FS.h>
-#include <SD_MMC.h>
 
 ESP32_FTPClient::ESP32_FTPClient(char* _serverAdress, uint16_t _port, char* _userName, char* _passWord, uint16_t _timeout, uint8_t _verbose){
   userName = _userName;
